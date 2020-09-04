@@ -65,6 +65,12 @@ request1({url:'/home/data'}).then(res=>{
 }).catch(err=>{
     console.log(err);
 })*/
+/*//使用promise封装的axios
+request1({url:'/home/data'}).then(res=>{
+    console.log(res);
+}).catch(err=>{
+    console.log(err);
+})*/
 
 
 request2({url:'/home/data'}).then(res=>{
